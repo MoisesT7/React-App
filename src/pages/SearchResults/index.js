@@ -15,7 +15,7 @@ export default function SearchResults ({ params }) {
         setGifs(gifs)
         setLoading(false)
       })
-  }, [])
+  }, [keyword])
 
   return <>
     {loading
